@@ -25,7 +25,7 @@ url: "https://wuwaa.github.io/" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
-fb_appid:
+fb_appid: # leave it blank if not wish
 
 # Collection setting
 collections:
