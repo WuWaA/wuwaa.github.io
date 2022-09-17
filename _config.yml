@@ -16,7 +16,6 @@ author:
   username: WuWaA # general username
   github: WuWaA # github username
   twitter: niceball_wuwaa # twitter username
-  facebook: none # facebook username
   email: pseudo.wang@outlook.com # email address
   avatar: /assets/img/avatar.png # change with your own avatar
 
@@ -25,7 +24,6 @@ url: "https://wuwaa.github.io/" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
-fb_appid: # leave it blank if not wish
 
 # Collection setting
 collections:
