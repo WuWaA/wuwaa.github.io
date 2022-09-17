@@ -1,24 +1,24 @@
 # Site settings
-title: Test title # site title
+title: Pseudo # site title
 description: >- # site description
-  Test description
+  Nothing to say for now
 lang: en-US # default lang
-#timezone: # set your timezone
-#image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-#repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+timezone: America/New_York # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: None # author name
+  name: Pseudo # author name
   bio: >- # tell to the world
     None for now
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  #avatar: /assets/img/avatar.jpg # change with your own avatar
+  username: WuWaA # general username
+  github: WuWaA # github username
+  twitter: niceball_wuwaa # twitter username
+  facebook: none # facebook username
+  email: pseudo.wang@outlook.com # email address
+  avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
 url: "https://wuwaa.github.io/" #
@@ -74,12 +74,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - CHANGELOG.md
-  - README.md
   - node_modules
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - lighthouse.png
   - klise-*.gem
   - klise.gemspec
 
