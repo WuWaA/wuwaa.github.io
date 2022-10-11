@@ -1,12 +1,13 @@
 # Site settings
 title: Pseudo # site title
 description: >- # site description
-  Nothing to say for now
+  Pseudo Wang in the Real World
 lang: en-US # default lang
 timezone: America/New_York # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+repo: https://github.com/WuWaA/wuwaa.github.io/ # site repo [optional]
 mode: dark # default theme "dark" | "light"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Profile settings
 author:
@@ -59,7 +60,6 @@ jekyll_compose:
 number_of_posts: 5
 
 # Build settings
-# theme: klise
 sass:
   style: compressed
 
@@ -71,13 +71,12 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - node_modules
-  - klise-*.gem
-  - klise.gemspec
+  - LICENSE
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-include-cache
