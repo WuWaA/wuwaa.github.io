@@ -1,19 +1,19 @@
 # Site settings
-title: Pseudo # site title
+title: Pseudo Wang # site title
 description: >- # site description
   Pseudo Wang in the Real World
 lang: en-US # default lang
 timezone: America/New_York # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+# image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/WuWaA/wuwaa.github.io/ # site repo [optional]
-mode: dark # default theme "dark" | "light"
+# mode: dark # default theme "dark" | "light"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Profile settings
 author:
   name: Pseudo # author name
   bio: >- # tell to the world
-    None for now
+    Pseudo Wang in the Real World
   username: WuWaA # general username
   github: WuWaA # github username
   twitter: niceball_wuwaa # twitter username
@@ -22,9 +22,9 @@ author:
 
 # URL settings
 url: "https://wuwaa.github.io/" #
-baseurl:
-permalink: /:title/
-google_analytics: # leave it blank if not wish
+# baseurl:
+# permalink: /:title/
+# google_analytics: # leave it blank if not wish
 
 # Collection setting
 collections:
@@ -32,36 +32,36 @@ collections:
     output: true
 
 # Markdown settings
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
+# markdown: kramdown
+# highlighter: rouge
+# kramdown:
+#   syntax_highlighter: rouge
 
 # Default front matter
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: post
-      comments: false
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: post
+#       comments: false
 
 # Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
-    modified:
-    tags: []
-    description:
-  draft_default_front_matter:
-    modified:
-    tags: []
-    description:
+# jekyll_compose:
+#   post_default_front_matter:
+#     modified:
+#     tags: []
+#     description:
+#   draft_default_front_matter:
+#     modified:
+#     tags: []
+#     description:
 
 # Homepage limit posts
-number_of_posts: 5
+# number_of_posts: 5
 
 # Build settings
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 include:
   - _redirects
@@ -76,7 +76,7 @@ exclude:
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-postfiles
+  # - jekyll-feed
+  # - jekyll-sitemap
+  # - jekyll-postfiles
   - jekyll-include-cache
