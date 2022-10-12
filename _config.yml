@@ -15,9 +15,9 @@ author:
   email: pseudo.wang@outlook.com # email address
   avatar: /assets/images/avatar.png # change with your own avatar
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pseudo.wang@outlook.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:pseudo.wang@outlook.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/niceball_wuwaa"
@@ -153,9 +153,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
