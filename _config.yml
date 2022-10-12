@@ -13,7 +13,7 @@ author:
   name: "Pseudo" # author name
   bio: Pseudo Wang in the Real World
   email: pseudo.wang@outlook.com # email address
-  avatar: /assets/img/avatar.png # change with your own avatar
+  avatar: /assets/images/avatar.png # change with your own avatar
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
