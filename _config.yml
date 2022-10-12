@@ -6,6 +6,7 @@ timezone: "America/New_York" # set your timezone
 repository: "WuWaA/wuwaa.github.io" # site repo
 minimal_mistakes_skin: "mint"
 words_per_minute: 200
+github: [metadata]
 
 # Profile
 author:
