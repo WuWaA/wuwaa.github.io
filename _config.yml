@@ -4,7 +4,7 @@ description: "Pseudo Wang in the Real World"
 lang: "en-US" # default lang
 timezone: "America/New_York" # set your timezone
 repository: "WuWaA/wuwaa.github.io" # site repo
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "mint"
 words_per_minute: 200
 
